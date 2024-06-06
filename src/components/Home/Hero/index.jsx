@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useEffect, useState } from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { BsBoxSeam } from "react-icons/bs";
 import { PiCalculatorLight } from "react-icons/pi";
@@ -12,6 +12,10 @@ const HomeHero = () => {
   const [loader, setLoader] = useState(false);
 
   const navigate = useNavigate();
+useEffect(() => {
+  localStorage.removeItem("trackingId")
+}, [])
+
 
   const handleFocus = () => {
     setIsFocused(true);
@@ -29,6 +33,7 @@ const HomeHero = () => {
   
     setTimeout(() => {
       if (trackingId === "XX123-456-789") {
+        localStorage.setItem("trackingId", trackingId)
         setLoader(false);
         navigate("/tracking");
         console.log("tracking")

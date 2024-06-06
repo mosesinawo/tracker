@@ -1,4 +1,5 @@
 function Tracking() {
+
   return (
     <>
       <section className="mt-32">
@@ -13,18 +14,18 @@ function Tracking() {
           <div className="mt-5 text-center">
             <p className=" uppercase">In transit</p>
 
-           <h5 className="text-2xl font-light mt-5" >on FedEx vehicle for delivery <br/> -  Shibuya, Tokyo</h5>
+           <h5 className="text-2xl font-light mt-5" >on FedEx vehicle for delivery <br/>  , Sweden</h5>
           </div>
 
           <img src="/img/tracker.svg" alt="" className="mt-3" />
         <div className="lg:w-[50%] w-full flex justify-between items-center mt-20">
           <div className=" flex flex-col gap-3">
             <span className=" text-2xl font-semibold text-gray-600">FROM</span>
-            <span className=" text-2xl  text-gray-600 font-light">Texas</span>
+            <span className=" text-2xl  text-gray-600 font-light">Sweden</span>
           </div>
           <div className=" flex flex-col gap-3">
             <span className=" text-2xl font-semibold text-gray-600">TO</span>
-            <span className=" text-2xl  text-gray-600 font-light">Netherlands</span>
+            <span className=" text-2xl  text-gray-600 font-light">USA</span>
           </div>
         </div>
         </div>
