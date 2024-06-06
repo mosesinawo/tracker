@@ -10,7 +10,28 @@
   *::after {
       @apply m-0 p-0 box-border ;
   }
+  
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
 
+  @keyframes loading {
+    20% {
+      background-position: 0% 0%, 50% 50%, 100% 50%;
+    }
+    40% {
+      background-position: 0% 100%, 50% 0%, 100% 50%;
+    }
+    60% {
+      background-position: 0% 50%, 50% 100%, 100% 0%;
+    }
+    80% {
+      background-position: 0% 50%, 50% 50%, 100% 100%;
+    }
+  }
   html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -19,5 +40,22 @@
   body {
       @apply bg-white font-poppins w-full m-0 p-0;
   }
+  section{
+    padding: 7rem 7%;
+  }
+  p{
+    font-size: 1.1rem;
+  }
   
 }
+
+.circle {
+  @apply w-4 h-4 my-12 mx-1 bg-[#4d148c] rounded-full;
+}
+
+/* @media screen and (max-width: 850px){
+  
+  html{
+    font-size: 50%;
+  }
+} */
