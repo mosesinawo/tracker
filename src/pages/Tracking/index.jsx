@@ -24,7 +24,7 @@ function Tracking() {
             </p>
           </div>
           <div className="mt-5 text-center  ">
-            <p className="text-5xl font-light">Scheduled delivery: Pending</p>
+            <p className="text-5xl font-light">Scheduled delivery</p>
           </div>
 
           <img src="/img/tracker.svg" alt="" className="mt-10" />
