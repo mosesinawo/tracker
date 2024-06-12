@@ -33,7 +33,7 @@ function Tracking() {
             <p className=" uppercase font-semibold">In transit</p>
 
             <h5 className="text-3xl font-light mt-5 text-center">
-              on FedEx vehicle for delivery <br />  Sweden
+              on FedEx vehicle for delivery <br />  Bear, Delaware
             </h5>
             <p className=" font-semibold text-blue-600 text-2xl uppercase cursor-pointer">
               {" "}
