@@ -1,4 +1,4 @@
-import { MdOutlineInfo } from "react-icons/md";
+// import { MdOutlineInfo } from "react-icons/md";
 
 function Tracking() {
   return (
@@ -15,16 +15,17 @@ function Tracking() {
               XX123-456-789
             </p>
           </div>
-          <div className="flex items-center gap-3 my-5">
+          {/* <div className="flex items-center gap-3 my-5">
             <span>
               <MdOutlineInfo color="#4d148c" size={25} />
             </span>
             <p className=" text-xl">
               No scheduled delivery date available at this time
             </p>
-          </div>
+          </div> */}
           <div className="mt-5 text-center  ">
-            <p className="text-5xl font-light">Scheduled delivery</p>
+            <p className="text-3xl ">Scheduled delivery</p>
+            <p className="text-5xl mt-3 font-light">Sat, July 6 2024</p>
           </div>
 
           <img src="/img/tracker.svg" alt="" className="mt-10" />
