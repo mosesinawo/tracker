@@ -4,6 +4,7 @@ import AppLayout from "./components/AppLayout";
 import Tracking from "./pages/Tracking";
 import Error from "./pages/Error";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Success from "./pages/Success";
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
         {
           path: "/error",
           element: <Error />,
+        },
+        {
+          path: "/success",
+          element: <Success />,
         },
       ],
     },
