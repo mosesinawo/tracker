@@ -32,7 +32,7 @@ useEffect(() => {
     setLoader(true);
   
     setTimeout(() => {
-      if (trackingId === "XX123-456-789") {
+      if (trackingId === "1234 5678 9012 3456 7890 12") {
         localStorage.setItem("trackingId", trackingId)
         setLoader(false);
         navigate("/tracking");

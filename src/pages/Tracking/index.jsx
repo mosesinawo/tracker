@@ -12,7 +12,7 @@ function Tracking() {
             <p className=" font-light text-xl">Tracking Number:</p>
             <p className=" font-semibold text-xl">
               {" "}
-              XX123-456-789
+              1234 5678 9012 3456 7890 12
             </p>
           </div>
           {/* <div className="flex items-center gap-3 my-5">
