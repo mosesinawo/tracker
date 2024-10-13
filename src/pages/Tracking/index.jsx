@@ -24,11 +24,12 @@ function Tracking() {
             </p>
           </div> */}
           <div className="mt-5 text-center  ">
-            <p className="text-3xl ">Scheduled delivery</p>
+            <p className="text-4xl ">Your Package has been held</p>
+            <p className="text-2xl my-10">Please reply to this email for more information regarding the held package. <br/> <a className="text-blue-600" href="mailto:fedexdeliverypackage@cargoonrender.com">fedexdeliverypackage@cargoonrender.com</a></p>
             <p className="text-5xl mt-3 font-light">Fri, Oct 12 2024</p>
           </div>
 
-          <img src="/img/tracker.svg" alt="" className="mt-10" />
+          <img src="/img/held.svg" alt="" className="mt-10" />
 
           <div className="flex flex-col items-center mt-3 gap-5 text-center">
             <p className=" uppercase font-semibold">In transit</p>
