@@ -25,7 +25,7 @@ function Tracking() {
           </div> */}
           <div className="mt-5 text-center  ">
             <p className="text-4xl ">Your Package has been held</p>
-            <p className="text-2xl my-10">Please reply to this email for more information regarding the held package. <br/> <a className="text-blue-600" href="mailto:fedexdeliverypackage@cargoonrender.com">fedexdeliverypackage@cargoonrender.com</a></p>
+            <p className="text-2xl my-10">Please reply to this email for more information regarding the held package. <br/> <a className="text-blue-600 font-medium" href="mailto:fedexdeliverypackage@cargoonrender.com">fedexdeliverypackage@cargoonrender.com</a></p>
             <p className="text-5xl mt-3 font-light">Fri, Oct 12 2024</p>
           </div>
 
